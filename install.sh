@@ -20,29 +20,29 @@ read -p " •> " test
 if [ $test = 1 ]
 then
 clear
-pkg update && pkg upgrade
-pkg install curl
-pkg install python2
-pkg install python
-pkg install php
-pkg install openssh
-pkg install pip
-pkg install python2-dev
-pkg install mc
-pkg install git
-pkg install wget
-pkg install ruby
-pkg install perl
-pkg install mechanize
-pkg install pip mechanize
-pkg install neofetch
-pkg install nano
-pkg install apache
-pkg install apache2
-pkg install figlet
-pkg install sh
-pkg install toilet
-pip install --upgrade pip
+pkg update && pkg upgrade -y
+pkg install curl -y
+pkg install python2 -y
+pkg install python -y
+pkg install php -y
+pkg install openssh -y
+pkg install pip -y
+pkg install python2-dev -y
+pkg install mc -y
+pkg install git -y
+pkg install wget -y
+pkg install ruby -y
+pkg install perl -y
+pkg install mechanize -y
+pkg install pip mechanize -y
+pkg install neofetch -y
+pkg install nano -y
+pkg install apache -y
+pkg install apache2 -y
+pkg install figlet -y
+pkg install sh -y
+pkg install toilet -y
+pip install --upgrade pip -y
 
 fi
 
